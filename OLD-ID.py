@@ -39,10 +39,8 @@ def runtxt(z):
 
 
 
-def helpnote():
-	print("%s [*] FOLLOW ME ON Fb TU KNOW ABOUT UPDATES  :)"%(G))
-	subprocess.check_output(["am", "start", "plr = requests.get('https://github.com/mohammadrahad/rahad/blob/main/rahad.txt').text"])
-	exit(" [*] FACEBOOK :  Mohammad Rahad ")
+
+	
 
 
 def notice():
