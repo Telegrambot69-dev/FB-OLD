@@ -74,19 +74,6 @@ class Main:
 		self.cp = []
 		self.loop = 0
 		try:
-			plr = requests.get('https://github.com/Telegrambot69-dev/rahad/blob/a4b7753857b3c4eff00f7db9300c96bd4855e8de/rahad.txt').text
-			if basesplit in plr:
-				key = basesplit
-				stat = ("\033[0;92mPREMIUM")
-				FY = '\033[0;93m'
-				FG = '\033[0;92m'
-				GET = '\r'
-			else:
-				key = ("\033[0;91m -")
-				stat = ("\033[0;91mFREE USER")
-				FY = '\033[0;90m'
-				FG = '\033[0;90m'
-				GET = '\033[0;92m [P] GET PREMIUM'
 		except requests.exceptions.ConnectionError:
 			print("\n%s [!] NO INTERNET CONNECTION..\n"%(G))
 			exit()
