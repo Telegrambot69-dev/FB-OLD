@@ -49,10 +49,6 @@ def notice():
 
  
 
-	runtxt("\n\033[0;91mYOU ARE NOT PREMIUM USER ")
-	runtxt("\033[0;93m  SENT THIS KEY TO ADMIN >> %s%s"%(G,basesplit))
-	runtxt("\033[0;92m ADMIN MESSENGER🔰SULAIMAN")
-	subprocess.check_output(["am", "start", "https://m.me/100045479477226"])
 
 def irfan():
 	
@@ -129,34 +125,34 @@ class Main:
 				self.oldcrack()
 			else: 
 				notice()
-				exit()
+				
 		elif hoga in ["1", "01"]:
 			if basesplit in plr:
 			    self.fbtua()
 			else: 
 				notice()
-				exit()
+				
 		elif hoga in ["2", "02"]:
 			if basesplit in plr:
 			    self.fbtua()
 			else: 
 				notice()
-				exit()
+				
 		elif hoga in ["3", "03"]:
 			if basesplit in plr:
 				self.old4_5()
 			else: 
 				notice()
-				exit()
+				
 		elif hoga in ["4", "04"]:
 			if basesplit in plr:
 				self.email()
 			else: 
 				notice()
-				exit()
+				
 		elif hoga in ["P", "p"]:
 			notice()
-			exit()
+			
 		else:
 			Main()
 
